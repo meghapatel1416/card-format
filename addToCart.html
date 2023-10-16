@@ -53,6 +53,13 @@ document.getElementById("carts").innerHTML = dis.join(" ");
 
         }
 
+        // to add cart
+        // const addProduct = (myindex) =>{
+        //     carts.push(Products[myindex]);
+        //     console.log(carts);
+        //     document.getElementById("macart").innerHTML = carts.length;
+        // }
+
         const addProduct = (myindex)=>{
 
             const selectedProduct= Products[myindex];
@@ -71,10 +78,6 @@ document.getElementById("carts").innerHTML = dis.join(" ");
                 findProduct.count = findProduct.count+1;
 
             }
-
-          
-
-           
 
           let p = carts.reduce((pre,cuu)=>{
 
